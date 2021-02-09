@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/exec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@zxfc/log": "file:../../packages/log",
-    "@zxfc/tool": "file:../../packages/tool",
-    "@zxfc/package": "file:../../packages/package"
+    "@zxfc/package": "file:../../packages/package",
+    "@zxfc/tool": "file:../../packages/tool"
   }
 }
