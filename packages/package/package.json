@@ -14,18 +14,19 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/format-path": "file:../../packages/format-path",
-    "@zxfc/get-npm-info": "file:../../packages/get-npm-info",
-    "@zxfc/log": "file:../../packages/log",
-    "@zxfc/tool": "file:../../packages/tool",
+    "@zxfc/format-path": "^0.0.1",
+    "@zxfc/get-npm-info": "^0.0.1",
+    "@zxfc/log": "^0.0.1",
+    "@zxfc/tool": "^0.0.1",
     "fs-extra": "^9.1.0",
     "npminstall": "^4.10.0",
     "pkg-dir": "^5.0.0"
-  }
+  },
+  "gitHead": "cdf0bc47fd8d1b116b1b6701f2368d8d153d3a7d"
 }

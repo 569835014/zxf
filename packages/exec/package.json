@@ -14,14 +14,15 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/log": "file:../../packages/log",
-    "@zxfc/package": "file:../../packages/package",
-    "@zxfc/tool": "file:../../packages/tool"
-  }
+    "@zxfc/log": "^0.0.1",
+    "@zxfc/package": "^0.0.1",
+    "@zxfc/tool": "^0.0.1"
+  },
+  "gitHead": "cdf0bc47fd8d1b116b1b6701f2368d8d153d3a7d"
 }
