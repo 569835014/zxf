@@ -1,0 +1,29 @@
+{
+  "name": "@zxfcc/template-react",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "'569835014' <'569835014@qq.com'>",
+  "homepage": "https://github.com/569835014/zxfc#readme",
+  "license": "ISC",
+  "main": "template/template-react.js",
+  "directories": {
+    "lib": "template",
+    "test": "__tests__"
+  },
+  "files": [
+    "template"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/569835014/zxfc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/569835014/zxfc/issues"
+  }
+}

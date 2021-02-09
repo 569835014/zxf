@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div>
+        <div id="root"></div>
+    </div>
+    <% if (htmlWebpackPlugin.options.NODE_DEV==='dev') { %>
+    <h2><%= htmlWebpackPlugin.options.NODE_DEV %></h2>
+    <% } %>
+    <script src="./dll/dll.vendor.js"></script>
+</body>
+
+</html>
