@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zfxc/exec": "file:../../packages/exec",
-    "@zfxc/log": "file:../../packages/log",
+    "@zxfc/exec": "file:../../packages/exec",
+    "@zxfc/log": "file:../../packages/log",
     "colors": "^1.4.0",
     "commander": "^7.0.0",
     "dotenv": "^8.2.0",
