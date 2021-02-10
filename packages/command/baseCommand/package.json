@@ -1,0 +1,31 @@
+{
+  "name": "@zxfc/command",
+  "version": "0.0.3",
+  "description": "> TODO: description",
+  "author": "'569835014' <'569835014@qq.com'>",
+  "homepage": "https://github.com/569835014/zxf#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/569835014/zxf.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/569835014/zxf/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "semver": "^7.3.4",
+    "@zxfc/log": "file:../../../packages/log"
+  }
+}
