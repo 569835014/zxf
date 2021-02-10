@@ -20,12 +20,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/cli-config": "file:../../packages/cli-config",
-    "@zxfc/command": "file:../../packages/baseCommand",
-    "@zxfc/get-npm-info": "file:../../packages/get-npm-info",
-    "@zxfc/log": "file:../../packages/log",
-    "@zxfc/package": "file:../../packages/package",
-    "@zxfc/tool": "file:../../packages/tool",
+    "@zxfc/cli-config": "^0.1.5",
+    "@zxfc/command": "^0.1.5",
+    "@zxfc/get-npm-info": "^0.1.5",
+    "@zxfc/log": "^0.1.5",
+    "@zxfc/package": "^0.1.5",
+    "@zxfc/tool": "^0.1.5",
     "ejs": "^3.1.6",
     "fs-extra": "^9.1.0",
     "glob": "^7.1.6",
@@ -33,5 +33,6 @@
     "kebab-case": "^1.0.0",
     "semver": "^7.3.4",
     "user-home": "^2.0.0"
-  }
+  },
+  "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974"
 }

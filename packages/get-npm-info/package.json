@@ -20,10 +20,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/log": "file:../../packages/log",
+    "@zxfc/log": "^0.1.5",
     "axios": "^0.21.1",
     "semver": "^7.3.4",
     "url-join": "^4.0.1"
   },
-  "gitHead": "cdf0bc47fd8d1b116b1b6701f2368d8d153d3a7d"
+  "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974"
 }

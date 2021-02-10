@@ -23,9 +23,13 @@
   "bugs": {
     "url": "https://github.com/569835014/zxf/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@zxfc/log": "file:../../packages/log",
+    "@zxfc/log": "^0.1.5",
     "colors": "^1.4.0",
     "semver": "^7.3.4"
-  }
+  },
+  "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974"
 }
