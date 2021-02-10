@@ -1,6 +1,6 @@
 {
-  "name": "webpackbase",
-  "version": "1.0.0",
+  "name": "<%= projectName %>",
+  "version": "<%= projectVersion %>",
   "description": "webpack配置",
   "main": "index.js",
   "scripts": {

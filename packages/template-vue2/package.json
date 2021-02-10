@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/template-vue2",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "https://github.com/569835014/zxfc#readme",
@@ -10,9 +10,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "access": "public"
   },

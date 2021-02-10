@@ -1,7 +1,6 @@
 {
-  "name": "tsuproject",
-  "version": "0.1.0",
-  "private": true,
+  "name": "<%= projectName %>",
+  "version": "<%= projectVersion %>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"

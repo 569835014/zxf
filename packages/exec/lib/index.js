@@ -4,7 +4,7 @@ const Package = require( '@zxfc/package' )
 const { exec: spawn } = require('@zxfc/tool')
 const log = require( '@zxfc/log' )
 const path = require( 'path' );
-const prefix = '@zfx'
+const prefix = '@zxfc'
 // 所有commander的配置列表
 const PACKAGE_MAP = {
    init: `${ prefix }/init`
