@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/log": "^0.1.6",
+    "@zxfc/log": "file:../../packages/log",
     "axios": "^0.21.1",
     "semver": "^7.3.4",
     "url-join": "^4.0.1"

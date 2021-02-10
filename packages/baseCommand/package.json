@@ -27,7 +27,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zxfc/log": "^0.1.6",
+    "@zxfc/log": "file:../../packages/log",
     "colors": "^1.4.0",
     "semver": "^7.3.4"
   },

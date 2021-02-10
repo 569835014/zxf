@@ -20,10 +20,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/format-path": "^0.1.6",
-    "@zxfc/get-npm-info": "^0.1.6",
-    "@zxfc/log": "^0.1.6",
-    "@zxfc/tool": "^0.1.6",
+    "@zxfc/format-path": "file:../../packages/format-path",
+    "@zxfc/get-npm-info": "file:../../packages/get-npm-info",
+    "@zxfc/log": "file:../../packages/log",
+    "@zxfc/tool": "file:../../packages/tool",
     "fs-extra": "^9.1.0",
     "npminstall": "^4.10.0",
     "pkg-dir": "^5.0.0"
