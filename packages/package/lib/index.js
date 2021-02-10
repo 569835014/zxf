@@ -34,9 +34,7 @@ class Package {
         if (this.storeDir && !pathExists(this.storeDir)) {
             fse.mkdirpSync(this.storeDir);
         }
-        console.info(await getNpmLatestVersion(this.packageName))
         this.packageVersion = await getNpmLatestVersion(this.packageName);
-        console.info('packageVersion', this.packageVersion)
     }
 
     // 判断当前Package是否存在

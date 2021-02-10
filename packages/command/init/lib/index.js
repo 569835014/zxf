@@ -15,7 +15,7 @@ const { getNpmLatestVersion } = require('@zxfc/get-npm-info');
 const cilConfig = require('@zxfc/cli-config');
 
 function index( arg ) {
-    console.info('arg',arg)
+    // console.info('arg',arg)
     return new InitCommand(arg);
 }
 
@@ -377,7 +377,6 @@ class InitCommand extends Command {
                     ...this.projectInfo,
                     sourcePath: path.resolve(this.templateNpm.cacheFilePath, 'template'),
                 };
-                console.info(options);
                 const code = `require('${rootFile}')(${JSON.stringify(options)})`;
                 log.verbose('自定义模板传入参数为:', options);
                 await execAsync('node', ['-e', code], {
@@ -394,7 +393,6 @@ class InitCommand extends Command {
 
     async ejsRender( option ) {
         const dir = process.cwd();
-        console.info(this.projectInfo)
         return new Promise(( resolve, reject ) => {
             glob('**', {
                 cwd: dir,

@@ -53,9 +53,7 @@ function getDefaultRegistry( isOriginal = true ) {
  */
 async function getNpmLatestVersion( npmName, registry ) {
     let versions = await getNpmVersion(npmName, registry);
-    console.info('versions',versions)
     if (versions) {
-        console.info(versions.sort((( a, b ) => semver.gt(b, a) ? 1 : -1)))
         return versions.sort((( a, b ) => semver.gt(b, a)))[0];
     }
     return null;
