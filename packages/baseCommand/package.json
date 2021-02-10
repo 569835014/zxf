@@ -26,6 +26,6 @@
   "dependencies": {
     "colors": "^1.4.0",
     "semver": "^7.3.4",
-    "@zxfc/log": "file:../../../packages/log"
+    "@zxfc/log": "file:../../packages/log"
   }
 }
