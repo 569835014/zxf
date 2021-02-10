@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/exec",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "",
@@ -20,9 +20,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/log": "^0.1.5",
-    "@zxfc/package": "^0.1.5",
-    "@zxfc/tool": "^0.1.5"
+    "@zxfc/log": "^0.1.6",
+    "@zxfc/package": "^0.1.6",
+    "@zxfc/tool": "^0.1.6"
   },
   "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974"
 }

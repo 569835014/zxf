@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zxfc/exec": "^0.1.5",
-    "@zxfc/log": "^0.1.5",
+    "@zxfc/exec": "^0.1.6",
+    "@zxfc/log": "^0.1.6",
     "colors": "^1.4.0",
     "commander": "^7.0.0",
     "dotenv": "^8.2.0",

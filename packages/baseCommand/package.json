@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/command",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "https://github.com/569835014/zxf#readme",
@@ -27,7 +27,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zxfc/log": "^0.1.5",
+    "@zxfc/log": "^0.1.6",
     "colors": "^1.4.0",
     "semver": "^7.3.4"
   },
