@@ -1,7 +1,7 @@
 
 const rootCheck = require('root-check')
-const log = require('@zfxc/log')
-const exec = require('@zfxc/exec')
+const log = require('@zxfc/log')
+const exec = require('@zxfc/exec')
 const colors = require('colors')
 const userHome = require('user-home')
 const dotenv = require('dotenv')
