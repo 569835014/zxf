@@ -52,6 +52,7 @@ async function index(_,_name, _cmdObj) {
          await pkg.install();
       }
    } else {
+
       pkg = new Package( {
          targetPath,
          packageName,
@@ -60,6 +61,7 @@ async function index(_,_name, _cmdObj) {
    }
 
    const rootFile = pkg.getRootFilePath();
+   log.verbose('rootFile', rootFile)
    if (rootFile) {
       try {
          const argv = Array.from( arguments )

@@ -19,5 +19,9 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974"
+  "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974",
+  "dependencies": {
+    "@zxfc/cli": "0.1.10",
+    "global": "^4.4.0"
+  }
 }
