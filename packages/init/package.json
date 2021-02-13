@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/init",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@zxfc/cli-config": "file:../../packages/cli-config",
     "@zxfc/command": "^0.1.10",
-    "@zxfc/get-npm-info": "^0.1.15",
+    "@zxfc/get-npm-info": "^0.1.16",
     "@zxfc/log": "file:../../packages/log",
     "@zxfc/package": "file:../../packages/package",
     "@zxfc/tool": "file:../../packages/tool",
