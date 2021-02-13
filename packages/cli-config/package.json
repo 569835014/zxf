@@ -1,6 +1,6 @@
 {
   "name": "@zxfc/cli-config",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "> TODO: description",
   "author": "'569835014' <'569835014@qq.com'>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "gitHead": "4357cfba1d5e562df09016fbdad020472c5e9974",
   "dependencies": {
-    "@zxfc/cli": "^0.1.14",
+    "@zxfc/cli": "^0.1.15",
     "global": "^4.4.0"
   }
 }
