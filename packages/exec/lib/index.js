@@ -59,7 +59,6 @@ async function index(_,_name, _cmdObj) {
          packageVersion
       } );
    }
-
    const rootFile = pkg.getRootFilePath();
    log.verbose('rootFile', rootFile)
    if (rootFile) {

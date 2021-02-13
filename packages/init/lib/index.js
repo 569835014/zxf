@@ -19,6 +19,7 @@ function index( arg ) {
     return new InitCommand(arg);
 }
 
+
 const TYPE_PROJECT = 'project';
 const TYPE_COMPONENT = 'component';
 const TEMPLATE_TYPE_NORMAL = 'normal';
