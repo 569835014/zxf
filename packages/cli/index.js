@@ -71,7 +71,6 @@ function registerCommand() {
         .option( '-f, --force', '是否强制初始化项目' )
         .action( exec )
     program.on( 'option:debug', function () {
-
         if (program.debug === true) {
             process.env.LOG_LEVEL = 'verbose'
         } else if(program.debug === false){
