@@ -84,10 +84,12 @@ class InitCommand extends Command {
                     type: 'confirm',
                     name: 'ifDel',
                     default: false,
-                    message: '是否确认情况当前目录下的文件',
+                    message: '是否确认清空当前目录下的文件',
                 });
                 if (ifDel) {
                     fsE.emptyDirSync(localPath);
+                } else {
+                    return
                 }
 
             }
