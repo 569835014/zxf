@@ -88,10 +88,7 @@ class InitCommand extends Command {
                 });
                 if (ifDel) {
                     fsE.emptyDirSync(localPath);
-                } else {
-                    return
                 }
-
             }
         }
 
